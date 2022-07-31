@@ -15,7 +15,7 @@
 #### First to analyze this data for outcomes based on launch dates, the year of each campaign was extracted from the Date Created Conversion column using the YEAR() Excel function to create a new column of data. A pivot table was then created from the worksheet and designed to show the canceled, failed, and successful campaigns as well as the grand total in columns. Parent category and years were set as the filters. The pivot table was filtered to show each month and how many campaigns were in each category for that month. The data was filtered to only show theater campaigns as these were the most successful overall and therefore the focus for Louise. A line chart was created from this pivot table to show a clear visualization and is shown below:
 
 #### 
-![Theatre_Outcomes_vs_Launch.png](/Theatre_Outcomes_vs_Launch.png)
+![Theatre_Outcomes_vs_Launch.png](/Resources/Theatre_Outcomes_vs_Launch.png)
 
 #### May was the most successful month by a significant margin. February and October are close together for the second and third more successful months. Interestingly, October also shows a spike in failed campaigns. However, the failed outcomes do not have much variation between different months especially when compared to the variation of the successful campaigns, which varies the most per month. The canceled campaigns hold a consistent level throughout the months, with October being the only month to have zero.
 
@@ -24,7 +24,7 @@
 #### The next analysis of this data was the outcomes (successful, failed, canceled) versus the goal (the amount of money hoped to be raised). To extract these data points from the larger data set, the COUNTIFS() Excel function was utilized and a chart was created in a new data sheet. Again, this was to specifically analyze the ‘plays’ subcategory data, so a COUNTIFS() function was created for that filter as well. A line graph was created to visualize these findings:
 
 ####
-![Outcomes_vs_Goals.png](/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](/Resources/Outcomes_vs_Goals.png)
 
 #### The graph shows that for the campaigns under $15000, there were more successful campaigns than failed. Once the threshold of $15000 was passed, where the successful and failed campaigns converge to the same amount, the percentage failed rises above the successful. This inverts again between the ranges of $35000-$44999, and then the failed campaigns spike while the successful campaigns plummet for the goal of $45000. This campaign goal range is the only to have no successful campaigns.
 
